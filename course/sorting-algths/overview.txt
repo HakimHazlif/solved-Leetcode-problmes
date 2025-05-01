@@ -1,0 +1,24 @@
+What is sorting?
+
+Sorting is the process of rearranging the items in a collection (e.g. an array) so that the itmes are in some kind of order.
+
+Examples:
+Sorting numbers form smallest to largest
+Sorting name alpphaetically
+Sorting movies based on release year
+Sorting movies based on revenue
+
+See: Sorting Algorithms Animations
+https://www.toptal.com/developers/sorting-algorithms
+
+
+Build-in javascript methods:
+
+arr.sort()
+
+- The build-in sort method accepts an optional comparator function
+- You can use this comparator function to tell javascript how you want it to sort
+- The comparator looks at points of elements (a and b), determines their sort based on the return value
+  - if it returns a negative number, a should come before b
+  - if it returns a positive number, a should come after b
+  - if it returns 0, a and b are the same as far as the sort is concerned
