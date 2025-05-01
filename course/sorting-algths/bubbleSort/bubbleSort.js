@@ -9,6 +9,8 @@
 //       }
 //     }
 //   }
+
+//   return arr
 // }
 
 function bubbleSort(arr) {
@@ -29,4 +31,6 @@ function bubbleSort(arr) {
 
     if (noSwap) break;
   }
+
+  return arr;
 }
